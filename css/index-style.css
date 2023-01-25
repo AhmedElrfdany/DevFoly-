@@ -1,0 +1,223 @@
+*
+{
+box-sizing: border-box;
+}
+#home
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center center;
+}
+ .overlay
+{
+    background-color: rgba(0, 0, 0, 0.5);
+   height: 100%;
+   width: 100%;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+}
+.caption
+{
+    height: 100vh;
+}
+.caption-details h1
+{
+    color: #fff;
+    font-size: 4.5rem;
+}
+.caption-details span
+{
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+
+}
+#about
+{
+    background-color: #f5f5f5;
+}
+.title-big
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    padding-right: 5px;
+}
+.skills-info .progress
+{
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem
+}
+.about-details:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: 9px;
+}
+
+
+#services
+{
+    background-color: #f5f5f5;
+}
+
+.service-title
+{
+    font-size: 3rem;
+}
+
+
+.brdr
+{
+    width: 65px;
+    height: 8px;
+    background-color: #0078ff;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.icon-circled
+{
+        height: 100px;
+        width: 100px;
+        font-size: 2rem;
+        border-radius: 50%;
+        line-height: 1.55;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0 0 0 10px #0078ff;
+        margin-bottom: 1rem;
+        transition: all 1s;
+          
+ }
+ .service-box:hover .icon-circled
+ {
+     background-color: #0078ff;
+     color: #fff;
+     box-shadow: 0 0 0 10px #f8f8f8;
+ }
+ .icon-circled i
+ {
+     font-size: 40px;
+ }
+
+ #counter
+ {
+     background-image: url(../images/counters-bg.jpg);
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+.overlay-counter
+ {
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0, 120, 255,0.7);   
+ }
+
+ .counter-circled
+ {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #fcfdff;
+    margin-bottom: 1rem;
+   
+      
+ }
+ .counter-box
+ {
+     color: #fff;
+ }
+ .counter-caption h6
+{
+font-size: 2rem;
+}
+.counter-caption span
+{
+font-size: 1rem;
+}
+.portfolio-icon
+{
+    font-size: 2.5rem;
+    color: #0078ff;
+}
+.portfolio-image
+{
+    
+   transition:transform 1s ease-in;
+   overflow: hidden;
+}
+.portfolio-box:hover .portfolio-image
+{
+    transform:scale(1.1 ,1.1);
+    
+}
+.carousel-item img
+{
+    width: 100px;
+    height: 100px;
+}
+.carousel-indicators button
+{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+}
+.clients
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.carousel-item
+{
+    color: #fff;
+}
+
+.category-card
+{
+    color: #fff;
+  
+    border-radius: 4px;
+} 
+
+#blog,#portfolio
+{
+    background-color: #f5f5f5;
+}
+#contact
+{
+   
+ 
+        background-image: url(../images/counters-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+   
+}
+
+.title-contact
+{
+    position: relative;
+    font-size: 2rem!important;
+}
+.overlay-contact
+{
+    background-color: rgba(0, 120, 255,0.7);
+    width: 100%;
+    height: 100%;
+}
